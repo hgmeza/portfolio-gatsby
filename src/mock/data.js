@@ -46,6 +46,24 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
+    img: 'ecommerce.png',
+    title: 'E-Commerce Clothing App',
+    info: 'Currently developing a complex React app that whose state is redux managed, incorporating signup with Firebase, and payments using Stripe (mock payments)',
+    info2: 'Currently in building process. This is a demo.',
+    url: 'http://ecommerce-clothing-react.herokuapp.com/',
+    repo: 'https://github.com/hgmeza/ecommerce-clothe-react', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
+    img: 'jabas.png',
+    title: 'Software Engineer',
+    info: 'Currently addressing a solution for untracked crates that signifies in the current loss of at least of 30% of such crates.',
+    info2: 'Building a backend with AWS and a client with React that includes a Progressive Web App functionality',
+    url: '',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
     img: 'faceapp.png',
     title: 'Face Recognition React.js',
     info: 'This personal React.js project allows you to identify the detection of faces in any image that it is supplied. This was achieved by using Clarifai\'s Face Detect Model.',
